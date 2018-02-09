@@ -2,7 +2,7 @@
 Greasemonkey script that downloads invoces from businessonline.ge (Bank of Georgia's Internet Banking )
 
 
-You should only create Json array withe the following  information: Account number, date ,persona number. This information is mandatory in order to find document.
+You should only create Json array withe the following  information: Account number, date ,persona number. This information is mandatory in order to find documents.
 
 Json looks like this:
 ```
@@ -28,5 +28,5 @@ Usage:
 * Add the businessonline-downloader.js
 * In gracemonkey configuration tab add  the following [download page url](https://businessonline.ge/Pages/Transactions/View/NationalTransferOut.aspx)
 * Create json array and add it to the the variable named infoArray
-* enter to the downloader page and invoice downloading will be started automatically
-* Wait and have a fun untill all the pdf document will be downloaded!
+* Enter to the downloader page and invoice downloading will be started automatically
+* Wait and enjoy untill all the pdf document will be downloaded!
