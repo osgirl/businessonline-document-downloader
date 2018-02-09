@@ -25,7 +25,8 @@ Json looks like this:
 Usage:
 
 * Install gracemonkey into the firefox with [the following link](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/)
-* Add the businessonline-downloader.js. downloader page url is [the following](https://businessonline.ge/Pages/Transactions/View/NationalTransferOut.aspx).
+* Add the businessonline-downloader.js
+* In gracemonkey configuration tab add  the following [download page url](https://businessonline.ge/Pages/Transactions/View/NationalTransferOut.aspx)
 * Create json array and add it to the the variable named infoArray
 * enter to the downloader page and invoice downloading will be started automatically
 * Wait and have a fun untill all the pdf document will be downloaded!
