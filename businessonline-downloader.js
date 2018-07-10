@@ -9,19 +9,7 @@
 (function() {
 
     // we must assign json to this variable. The json data that should be downloaded by the script.
-    var infoArray = [{
-            "accountNumber": "GE35BG0000000000000001",
-            "dateFrom": "30/01/2015",
-            "dateTo": "30/12/2015",
-            "personalId": "00000000001"
-        },
-        {
-            "accountNumber": "GE35BG0000000000000001",
-            "dateFrom": "21/08/2015",
-            "dateTo": "21/08/2015",
-            "personalId": "00000000002"
-        }
-    ];
+    var infoArray = [];
 
     var i = -1;
     var timeout;
